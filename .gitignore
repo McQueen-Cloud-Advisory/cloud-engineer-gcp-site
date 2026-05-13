@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Firebase local/cache files
+.firebase/
+
+# Firebase debug logs
+firebase-debug.log
+firebase-debug.*.log
+
+# Local Google/Firebase credentials
+*.local
+*.env.local
+
+# MkDocs generated site output
+site/
+
+# Python virtual environments
+.venv/
+venv/
