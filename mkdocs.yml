@@ -1,0 +1,141 @@
+site_name: Cloud Engineer
+site_description: Practical cloud engineering fundamentals and hands-on implementation guides by McQueen Cloud Advisory.
+docs_dir: docs
+strict: true
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Start Here: start-here.md
+  - Roadmap: roadmap.md
+  - Foundations:
+      - Overview: foundations/index.md
+      - What Is Cloud Engineering: foundations/what-is-cloud-engineering.md
+      - Learning Roadmap: foundations/foundations-learning-roadmap.md
+      - Cloud Provider Differences: foundations/cloud-provider-differences-overview.md
+      - Networking: foundations/networking.md
+      - Identity and Access: foundations/identity-and-access.md
+      - Compute: foundations/compute.md
+      - Storage: foundations/storage.md
+      - Databases: foundations/databases.md
+      - Serverless: foundations/serverless.md
+      - Containers: foundations/containers.md
+      - Infrastructure as Code: foundations/infrastructure-as-code.md
+      - CI/CD: foundations/cicd.md
+      - Observability: foundations/observability.md
+      - Cost Management: foundations/cost-management.md
+      - AI and Agents: foundations/ai-and-agents.md
+  - Google Cloud:
+      - Overview: gcp/index.md
+      - Getting Started: gcp/getting-started.md
+      - Roadmap: gcp/roadmap.md
+      - Services:
+          - Overview: gcp/services/index.md
+          - AI and Agentic Workloads: gcp/services/ai-and-agents.md
+          - BigQuery: gcp/services/bigquery.md
+          - Cloud Functions: gcp/services/cloud-functions.md
+          - Cloud Monitoring: gcp/services/cloud-monitoring.md
+          - Cloud Run: gcp/services/cloud-run.md
+          - Cloud Storage: gcp/services/cloud-storage.md
+          - IAM and Service Accounts: gcp/services/iam-and-service-accounts.md
+          - Pub/Sub: gcp/services/pubsub.md
+          - Secret Manager: gcp/services/secret-manager.md
+          - Vertex AI: gcp/services/vertex-ai.md
+          - Vertex AI Agent Builder: gcp/services/vertex-ai-agent-builder.md
+          - Agent Development Kit: gcp/services/agent-development-kit.md
+          - Model Garden: gcp/services/model-garden.md
+          - Model Armor: gcp/services/model-armor.md
+      - Projects:
+          - Overview: gcp/projects/index.md
+          - 'Project 01: Static Site': gcp/projects/project-01-static-site.md
+          - 'Project 02: Serverless Contact Form': gcp/projects/project-02-serverless-contact-form.md
+          - 'Project 03: Scheduled API Ingestion': gcp/projects/project-03-scheduled-api-ingestion.md
+          - 'Project 04: Analytics Platform': gcp/projects/project-04-analytics-platform.md
+          - 'Project 05: Agentic RAG Assistant': gcp/projects/project-05-agentic-rag-assistant.md
+      - Patterns:
+          - Overview: gcp/patterns/index.md
+          - Static Site: gcp/patterns/static-site.md
+          - Serverless API: gcp/patterns/serverless-api.md
+          - Scheduled Job: gcp/patterns/scheduled-job.md
+          - Analytics Platform: gcp/patterns/analytics-platform.md
+          - Agentic RAG Assistant: gcp/patterns/agentic-rag-assistant.md
+  - AWS:
+      - Overview: aws/index.md
+      - Getting Started: aws/getting-started.md
+      - Roadmap: aws/roadmap.md
+      - Services:
+          - Overview: aws/services/index.md
+          - AI and Agentic Workloads: aws/services/ai-and-agents.md
+          - Amazon API Gateway: aws/services/api-gateway.md
+          - AWS App Runner: aws/services/app-runner.md
+          - Amazon Bedrock: aws/services/bedrock.md
+          - Agents for Amazon Bedrock: aws/services/bedrock-agents.md
+          - Amazon CloudWatch: aws/services/cloudwatch.md
+          - Amazon DynamoDB: aws/services/dynamodb.md
+          - Amazon ECR: aws/services/ecr.md
+          - Amazon EventBridge: aws/services/eventbridge.md
+          - Guardrails for Amazon Bedrock: aws/services/guardrails-for-bedrock.md
+          - AWS IAM: aws/services/iam.md
+          - Knowledge Bases for Amazon Bedrock: aws/services/knowledge-bases-for-bedrock.md
+          - AWS Lambda: aws/services/lambda.md
+          - Amazon S3: aws/services/s3.md
+          - AWS Secrets Manager: aws/services/secrets-manager.md
+      - Projects:
+          - Overview: aws/projects/index.md
+          - 'Project 01: Static Site': aws/projects/project-01-static-site.md
+          - 'Project 02: Serverless Contact Form': aws/projects/project-02-serverless-contact-form.md
+          - 'Project 03: Scheduled API Ingestion': aws/projects/project-03-scheduled-api-ingestion.md
+          - 'Project 04: Analytics Platform': aws/projects/project-04-analytics-platform.md
+          - 'Project 05: Agentic RAG Assistant': aws/projects/project-05-agentic-rag-assistant.md
+      - Patterns:
+          - Overview: aws/patterns/index.md
+          - Static Site: aws/patterns/static-site.md
+          - Serverless API: aws/patterns/serverless-api.md
+          - Scheduled Job: aws/patterns/scheduled-job.md
+          - Analytics Platform: aws/patterns/analytics-platform.md
+          - Agentic RAG Assistant: aws/patterns/agentic-rag-assistant.md
+  - Azure:
+      - Overview: azure/index.md
+      - Getting Started: azure/getting-started.md
+      - Roadmap: azure/roadmap.md
+      - Services:
+          - Overview: azure/services/index.md
+          - API Management: azure/services/api-management.md
+          - Application Insights: azure/services/application-insights.md
+          - Azure AI Search: azure/services/azure-ai-search.md
+          - Azure OpenAI: azure/services/azure-openai.md
+          - Blob Storage: azure/services/blob-storage.md
+          - Container Apps: azure/services/container-apps.md
+          - Container Registry: azure/services/container-registry.md
+          - Content Safety: azure/services/content-safety.md
+          - Cosmos DB: azure/services/cosmos-db.md
+          - Data Factory: azure/services/data-factory.md
+          - Entra ID: azure/services/entra-id.md
+          - Foundry Agent Service: azure/services/foundry-agent-service.md
+          - Functions: azure/services/functions.md
+          - Key Vault: azure/services/key-vault.md
+          - Managed Identities: azure/services/managed-identities.md
+          - Microsoft Fabric: azure/services/microsoft-fabric.md
+          - Microsoft Foundry: azure/services/microsoft-foundry.md
+          - Monitor: azure/services/monitor.md
+          - Role-Based Access Control: azure/services/role-based-access-control.md
+      - Projects:
+          - Overview: azure/projects/index.md
+          - 'Project 01: Static Site': azure/projects/project-01-static-site.md
+          - 'Project 02: Serverless Contact Form': azure/projects/project-02-serverless-contact-form.md
+          - 'Project 03: Scheduled API Ingestion': azure/projects/project-03-scheduled-api-ingestion.md
+          - 'Project 04: Analytics Platform': azure/projects/project-04-analytics-platform.md
+          - 'Project 05: Agentic RAG Assistant': azure/projects/project-05-agentic-rag-assistant.md
+      - Patterns:
+          - Overview: azure/patterns/index.md
+          - Static Site: azure/patterns/static-site.md
+          - Serverless API: azure/patterns/serverless-api.md
+          - Scheduled Job: azure/patterns/scheduled-job.md
+          - Analytics Platform: azure/patterns/analytics-platform.md
+          - Agentic RAG Assistant: azure/patterns/agentic-rag-assistant.md
+  - Career:
+      - Overview: career/index.md
+      - Portfolio Projects: career/portfolio-projects.md
+      - Resume Bullets: career/resume-bullets.md
+      - Certifications: career/certifications.md
+      - Interview Prep: career/interview-prep.md
