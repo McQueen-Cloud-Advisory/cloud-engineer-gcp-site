@@ -1,0 +1,65 @@
+name: Container Security
+
+on:
+  pull_request:
+    paths:
+      - Dockerfile
+      - docker/**
+      - requirements.txt
+      - mkdocs.yml
+      - .github/workflows/container-security.yml
+  push:
+    branches:
+      - main
+    paths:
+      - Dockerfile
+      - docker/**
+      - requirements.txt
+      - mkdocs.yml
+      - .github/workflows/container-security.yml
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  build-and-scan:
+    name: Build and Scan Container
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Out Repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Set Up Docker Buildx
+        uses: docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435 # v3.11.1
+
+      - name: Build Container Image
+        uses: docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83 # v6.18.0
+        with:
+          context: .
+          load: true
+          tags: cloud-engineer-site:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Scan Container Image
+        id: scan
+        uses: anchore/scan-action@e1165082ffb1fe366ebaf02d8526e7c4989ea9d2 # v7.4.0
+        with:
+          image: cloud-engineer-site:ci
+          output-format: sarif
+          fail-build: true
+          severity-cutoff: high
+          cache-db: true
+
+      - name: Upload Vulnerability Report
+        if: ${{ always() && steps.scan.outputs.sarif != '' }}
+        uses: github/codeql-action/upload-sarif@9c4840c028605570a7b5023740fdfcf9a8f745e7 # v4.31.8
+        with:
+          sarif_file: ${{ steps.scan.outputs.sarif }}

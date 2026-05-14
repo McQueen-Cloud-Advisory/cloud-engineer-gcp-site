@@ -82,6 +82,30 @@ The local site will usually be available at:
 http://127.0.0.1:8000
 ```
 
+## Docker
+
+Build the container image:
+
+```bash
+docker build -t cloud-engineer-site .
+```
+
+Run the container locally:
+
+```bash
+docker run --rm -p 8080:8080 cloud-engineer-site
+```
+
+The container builds the MkDocs site during the image build and serves the generated static files from a minimal runtime image at:
+
+```text
+http://127.0.0.1:8080
+```
+
+If you want to run the image on a platform that injects a `PORT` environment variable, the container will listen on that port automatically.
+
+The builder stages in the Dockerfile are pinned to immutable digests for repeatable builds. The container image is also built and vulnerability-scanned automatically in the `Container Security` GitHub Actions workflow on pull requests, pushes to `main`, weekly schedule, and manual runs.
+
 ## Build Validation
 
 Build the site strictly before publishing changes:

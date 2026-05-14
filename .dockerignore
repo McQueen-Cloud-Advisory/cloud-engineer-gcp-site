@@ -1,0 +1,10 @@
+.firebase/
+.git/
+.github/
+.venv/
+__pycache__/
+site/
+*.pyc
+*.pyo
+*.pyd
+*.log
