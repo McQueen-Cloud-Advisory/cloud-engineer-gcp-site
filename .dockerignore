@@ -3,6 +3,7 @@
 .github/
 .venv/
 __pycache__/
+gha-creds-*.json
 site/
 *.pyc
 *.pyo
