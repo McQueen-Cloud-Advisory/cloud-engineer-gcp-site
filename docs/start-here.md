@@ -1,5 +1,29 @@
 # Start Here
 
+<div class="section-intro">
+	<p class="section-kicker">Practical learning path</p>
+	<p class="section-lede">Use the site to build cloud engineering judgment before you try to memorize provider catalogs.</p>
+	<p class="section-summary">Start with foundations, commit to one provider path, and learn services through projects and patterns so each topic stays attached to a working system.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Foundations First</h2>
+		<p>Build the shared model for networking, identity, compute, storage, observability, and cost.</p>
+		<p class="section-card-links"><a href="foundations/">Open Foundations</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Choose One Provider</h2>
+		<p>Go deep on one operating model before trying to compare every cloud at once.</p>
+		<p class="section-card-links"><a href="gcp/">Google Cloud</a><a href="aws/">AWS</a><a href="azure/">Azure</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Build Projects</h2>
+		<p>Use projects and patterns to turn service knowledge into deployable, explainable systems.</p>
+		<p class="section-card-links"><a href="roadmap/">See Roadmap</a><a href="career/">Career Section</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This page explains how to use the site as a practical learning path so you build cloud engineering judgment instead of collecting disconnected service names.
@@ -13,12 +37,14 @@ This page explains how to use the site as a practical learning path so you build
 
 ## Recommended First Pass
 
-1. Read the [Foundations overview](foundations/index.md) and the core pages on networking, identity, compute, storage, observability, and cost.
-2. Choose one provider path first: [Google Cloud](gcp/index.md), [AWS](aws/index.md), or [Azure](azure/index.md).
-3. Read that provider's getting started page and roadmap before trying to study every service.
-4. Build the project sequence in order and use service pages when a project actually needs them.
-5. Use the pattern pages to explain the architecture after you can build it.
-6. Use the [Career section](career/index.md) to turn the work into portfolio, resume, and interview material.
+<ul class="section-checklist">
+	<li><strong>1.</strong> Start with the <a href="foundations/">Foundations overview</a> and core pages on networking, identity, compute, storage, observability, and cost.</li>
+	<li><strong>2.</strong> Choose one provider path first: <a href="gcp/">Google Cloud</a>, <a href="aws/">AWS</a>, or <a href="azure/">Azure</a>.</li>
+	<li><strong>3.</strong> Read that provider's getting started page and roadmap before trying to study every service.</li>
+	<li><strong>4.</strong> Build the project sequence in order and use service pages when a project actually needs them.</li>
+	<li><strong>5.</strong> Use the pattern pages to explain the architecture after you can build it.</li>
+	<li><strong>6.</strong> Use the <a href="career/">Career section</a> to turn the work into portfolio, resume, and interview material.</li>
+</ul>
 
 ## Choose One Provider First
 

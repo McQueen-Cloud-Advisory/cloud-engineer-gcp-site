@@ -1,5 +1,34 @@
 # AWS
 
+<div class="section-intro">
+	<p class="section-kicker">Provider path</p>
+	<p class="section-lede">Learn AWS through its account model, IAM boundaries, regional design choices, and broad service tradeoffs.</p>
+	<p class="section-summary">This section helps you make sense of AWS by connecting service choices back to workload fit, operating boundaries, and architecture judgment.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Getting Started</h2>
+		<p>Get clear on accounts, IAM, regions, and the first services worth learning before widening scope.</p>
+		<p class="section-card-links"><a href="getting-started/">Open Getting Started</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Roadmap</h2>
+		<p>Use the roadmap to keep AWS breadth from turning into shallow, unstructured learning.</p>
+		<p class="section-card-links"><a href="roadmap/">View Roadmap</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Services</h2>
+		<p>Read the service guides when you need clear fit, tradeoffs, and comparisons inside real systems.</p>
+		<p class="section-card-links"><a href="services/">Browse Services</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Projects And Patterns</h2>
+		<p>Turn the service model into deployable applications and reusable design explanations.</p>
+		<p class="section-card-links"><a href="projects/">Projects</a><a href="patterns/">Patterns</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This section applies cloud engineering fundamentals using AWS and explains how common cloud patterns show up in AWS's account-centric operating model.
@@ -35,11 +64,7 @@ This gives you a path from simple public delivery to recurring automation, data 
 3. Study [Services](services/index.md) as you build the [Projects](projects/index.md).
 4. Return to [Patterns](patterns/index.md) when you want to explain why the architecture works.
 
-## Sections
-
-- [Services](services/index.md)
-- [Projects](projects/index.md)
-- [Patterns](patterns/index.md)
+## Section Links
 
 - [Getting Started](getting-started.md)
 - [Roadmap](roadmap.md)

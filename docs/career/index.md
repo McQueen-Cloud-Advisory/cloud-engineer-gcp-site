@@ -1,5 +1,34 @@
 # Career
 
+<div class="section-intro">
+	<p class="section-kicker">Communication and positioning</p>
+	<p class="section-lede">Turn cloud engineering work into portfolio evidence, resume signal, certification context, and interview-ready explanations.</p>
+	<p class="section-summary">This section exists to make your judgment visible, not just your exposure to tools or vendor acronyms.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Portfolio Projects</h2>
+		<p>Shape deployed work into public artifacts that show architecture, tradeoffs, and ownership clearly.</p>
+		<p class="section-card-links"><a href="portfolio-projects/">Open Portfolio Projects</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Resume Bullets</h2>
+		<p>Compress real project work into concise statements that still preserve technical credibility.</p>
+		<p class="section-card-links"><a href="resume-bullets/">Open Resume Bullets</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Certifications</h2>
+		<p>Use certifications to reinforce your direction rather than substitute for hands-on experience.</p>
+		<p class="section-card-links"><a href="certifications/">Open Certifications</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Interview Prep</h2>
+		<p>Practice explaining scope, ownership, tradeoffs, and system behavior under pressure.</p>
+		<p class="section-card-links"><a href="interview-prep/">Open Interview Prep</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This section helps you turn cloud engineering learning into portfolio artifacts, resume evidence, certification context, and interview-ready explanations.

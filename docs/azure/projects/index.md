@@ -1,5 +1,39 @@
 # Azure Projects
 
+<div class="section-intro">
+	<p class="section-kicker">Hands-on sequence</p>
+	<p class="section-lede">Build through the Azure project path in order so governance, identity, runtime, data, and monitoring concerns grow together.</p>
+	<p class="section-summary">These projects are meant to produce real Azure artifacts while also giving you a clear architecture and operations story to explain later.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Project 01: Static Site</h2>
+		<p>Begin with object storage delivery, public access choices, and deployment discipline.</p>
+		<p class="section-card-links"><a href="project-01-static-site/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 02: Serverless Contact Form</h2>
+		<p>Add application hosting, secrets, data handling, and monitoring.</p>
+		<p class="section-card-links"><a href="project-02-serverless-contact-form/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 03: Scheduled API Ingestion</h2>
+		<p>Introduce recurring automation, integration work, and operational visibility.</p>
+		<p class="section-card-links"><a href="project-03-scheduled-api-ingestion/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 04: Analytics Platform</h2>
+		<p>Extend the sequence into data movement, curation, and analytics workloads.</p>
+		<p class="section-card-links"><a href="project-04-analytics-platform/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 05: Agentic RAG Assistant</h2>
+		<p>Add AI services, retrieval design, safety controls, and higher-complexity runtime concerns.</p>
+		<p class="section-card-links"><a href="project-05-agentic-rag-assistant/">Open Project</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This section contains hands-on Azure projects designed to produce real artifacts while reinforcing the Azure operating model.

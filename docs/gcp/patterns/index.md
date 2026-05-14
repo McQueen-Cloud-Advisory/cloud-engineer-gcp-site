@@ -1,5 +1,39 @@
 # Google Cloud Patterns
 
+<div class="section-intro">
+	<p class="section-kicker">Reusable architecture</p>
+	<p class="section-lede">Use the Google Cloud patterns pages to understand workload shape before you focus on one implementation.</p>
+	<p class="section-summary">These pages make the design intent visible so you can compare alternatives, explain tradeoffs, and separate the pattern from the platform details.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Static Site</h2>
+		<p>Understand simple public delivery with low operational overhead and clear deployment boundaries.</p>
+		<p class="section-card-links"><a href="static-site/">Open Pattern</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Serverless API</h2>
+		<p>See how managed runtimes, secrets, and application data fit together around an API surface.</p>
+		<p class="section-card-links"><a href="serverless-api/">Open Pattern</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Scheduled Job</h2>
+		<p>Frame recurring automation and asynchronous execution as a repeatable system design.</p>
+		<p class="section-card-links"><a href="scheduled-job/">Open Pattern</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Analytics Platform</h2>
+		<p>Connect ingestion, storage, and analytical queries into one architecture pattern.</p>
+		<p class="section-card-links"><a href="analytics-platform/">Open Pattern</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Agentic RAG Assistant</h2>
+		<p>Study AI-oriented system shape without losing sight of application and platform design.</p>
+		<p class="section-card-links"><a href="agentic-rag-assistant/">Open Pattern</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This section explains reusable Google Cloud architecture patterns and helps you connect workload shape to service choice.

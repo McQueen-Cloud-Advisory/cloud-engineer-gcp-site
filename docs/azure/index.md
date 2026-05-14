@@ -1,5 +1,34 @@
 # Azure
 
+<div class="section-intro">
+	<p class="section-kicker">Provider path</p>
+	<p class="section-lede">Learn Azure through its identity model, subscription boundaries, resource organization, and management-heavy delivery style.</p>
+	<p class="section-summary">This section focuses on building and explaining real systems inside Azure without losing sight of governance, monitoring, and operational control.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Getting Started</h2>
+		<p>Understand tenants, subscriptions, resource groups, and the first Azure service set before you scale outward.</p>
+		<p class="section-card-links"><a href="getting-started/">Open Getting Started</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Roadmap</h2>
+		<p>Use the roadmap to sequence Azure learning deliberately instead of following the catalog at random.</p>
+		<p class="section-card-links"><a href="roadmap/">View Roadmap</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Services</h2>
+		<p>Read the service guides when you need practical fit, tradeoffs, and architectural comparisons.</p>
+		<p class="section-card-links"><a href="services/">Browse Services</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Projects And Patterns</h2>
+		<p>Connect the platform model to working systems and reusable architecture shapes.</p>
+		<p class="section-card-links"><a href="projects/">Projects</a><a href="patterns/">Patterns</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This section applies cloud engineering fundamentals using Azure and focuses on how Azure's identity, subscription, and resource organization model shapes real delivery work.
@@ -34,11 +63,7 @@ This path gives you a realistic Azure foundation without requiring broad enterpr
 3. Read [Services](services/index.md) in support of the [Projects](projects/index.md).
 4. Use [Patterns](patterns/index.md) to explain the architecture once you can build it.
 
-## Sections
-
-- [Services](services/index.md)
-- [Projects](projects/index.md)
-- [Patterns](patterns/index.md)
+## Section Links
 
 - [Getting Started](getting-started.md)
 - [Roadmap](roadmap.md)

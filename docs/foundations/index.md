@@ -1,5 +1,34 @@
 # Foundations
 
+<div class="section-intro">
+	<p class="section-kicker">Provider-neutral core</p>
+	<p class="section-lede">Learn the recurring concerns underneath every cloud platform before you map them to product names.</p>
+	<p class="section-summary">Use this section to separate durable concepts from vendor naming, defaults, and marketing layers so later service choices are easier to justify.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Orientation</h2>
+		<p>Start with the pages that define the field, the learning path, and the main provider differences.</p>
+		<p class="section-card-links"><a href="what-is-cloud-engineering/">What Is Cloud Engineering</a><a href="foundations-learning-roadmap/">Learning Roadmap</a><a href="cloud-provider-differences-overview/">Provider Differences</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Platform Basics</h2>
+		<p>Understand networking, identity, compute, storage, and database choices before comparing managed services.</p>
+		<p class="section-card-links"><a href="networking/">Networking</a><a href="identity-and-access/">Identity and Access</a><a href="compute/">Compute</a><a href="storage/">Storage</a><a href="databases/">Databases</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Delivery Systems</h2>
+		<p>Study the building blocks that shape how workloads are packaged, deployed, and changed over time.</p>
+		<p class="section-card-links"><a href="serverless/">Serverless</a><a href="containers/">Containers</a><a href="infrastructure-as-code/">Infrastructure as Code</a><a href="cicd/">CI/CD</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Operations And Scale</h2>
+		<p>Connect observability, cost, and AI-oriented workloads to the rest of the operating model.</p>
+		<p class="section-card-links"><a href="observability/">Observability</a><a href="cost-management/">Cost Management</a><a href="ai-and-agents/">AI and Agents</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This section explains the concepts that sit underneath every cloud platform. The goal is to understand how cloud systems are designed and operated before focusing on provider-specific service names.

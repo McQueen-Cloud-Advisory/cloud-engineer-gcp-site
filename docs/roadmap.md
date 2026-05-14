@@ -1,5 +1,34 @@
 # Site Roadmap
 
+<div class="section-intro">
+	<p class="section-kicker">Learning sequence</p>
+	<p class="section-lede">Move from shared concepts to deployable systems and then into portfolio-quality explanations.</p>
+	<p class="section-summary">The roadmap keeps services inside architecture, operations, and communication so the material builds judgment instead of becoming a disconnected reading list.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Build The Shared Model</h2>
+		<p>Use the foundations pages to understand the recurring concerns that appear on every platform.</p>
+		<p class="section-card-links"><a href="foundations/">Open Foundations</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Choose A Provider</h2>
+		<p>Commit to one operating model long enough to build clear mental models for deployment and operations.</p>
+		<p class="section-card-links"><a href="gcp/">Google Cloud</a><a href="aws/">AWS</a><a href="azure/">Azure</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Learn In Project Context</h2>
+		<p>Study services when a real system needs them so architecture and operations stay visible.</p>
+		<p class="section-card-links"><a href="gcp/projects/">Projects</a><a href="gcp/patterns/">Patterns</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Turn Work Into Explanations</h2>
+		<p>Convert implementation into portfolio evidence, interview stories, and clearer technical communication.</p>
+		<p class="section-card-links"><a href="career/">Open Career</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This roadmap shows how to use the site to build cloud engineering skills in a sequence that moves from concepts to implementation to explanation.

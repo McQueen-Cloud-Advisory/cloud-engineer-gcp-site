@@ -1,5 +1,34 @@
 # Google Cloud
 
+<div class="section-intro">
+	<p class="section-kicker">Provider path</p>
+	<p class="section-lede">Learn Google Cloud through its project model, service accounts, managed runtimes, and data-oriented platform strengths.</p>
+	<p class="section-summary">This section is designed to help you build complete systems inside Google Cloud rather than treating the platform as a flat catalog of services.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Getting Started</h2>
+		<p>Get the project, IAM, region, and API-enablement model clear before you start building.</p>
+		<p class="section-card-links"><a href="getting-started/">Open Getting Started</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Roadmap</h2>
+		<p>Use a deliberate sequence so application delivery, eventing, and analytics build on each other.</p>
+		<p class="section-card-links"><a href="roadmap/">View Roadmap</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Services</h2>
+		<p>Read service guides for fit, tradeoffs, and operating responsibilities instead of feature memorization.</p>
+		<p class="section-card-links"><a href="services/">Browse Services</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Projects And Patterns</h2>
+		<p>Move from deployable builds into reusable architecture explanations and portfolio-quality systems.</p>
+		<p class="section-card-links"><a href="projects/">Projects</a><a href="patterns/">Patterns</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This section applies cloud engineering fundamentals using Google Cloud and focuses on how Google Cloud's project-centric model shapes application, data, and platform design.
@@ -36,11 +65,7 @@ This gives you a path from basic hosting and automation into data and AI without
 3. Read [Services](services/index.md) in support of the [Projects](projects/index.md).
 4. Use [Patterns](patterns/index.md) to step back and explain the design choices.
 
-## Sections
-
-- [Services](services/index.md)
-- [Projects](projects/index.md)
-- [Patterns](patterns/index.md)
+## Section Links
 
 - [Getting Started](getting-started.md)
 - [Roadmap](roadmap.md)

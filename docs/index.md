@@ -1,125 +1,144 @@
 # Cloud Engineer
 
-## Purpose
+<div class="home-intro">
+	<p class="home-kicker">Published by McQueen Cloud Advisory</p>
+	<p class="home-positioning">Cloud engineering, explained through systems - not service catalogs.</p>
+	<p class="home-summary">A practical documentation site focused on how cloud systems are designed, deployed, secured, operated, automated, and improved over time.</p>
+	<p class="home-actions">
+		<a class="md-button md-button--primary" href="start-here/">Start Here</a>
+		<a class="md-button" href="roadmap/">View Roadmap</a>
+	</p>
+</div>
 
-Cloud Engineer is a practical documentation site for learners and working engineers who want to understand how cloud systems are designed, delivered, secured, operated, and improved over time.
+<div class="home-grid">
+	<div class="home-card">
+		<h2>Start Here</h2>
+		<p>Understand the structure of the site and the fastest path into the material.</p>
+		<p class="home-card-links"><a href="start-here/">Open Section</a></p>
+	</div>
+	<div class="home-card">
+		<h2>Roadmap</h2>
+		<p>Use a deliberate learning path instead of trying to absorb every cloud topic at once.</p>
+		<p class="home-card-links"><a href="roadmap/">View Roadmap</a></p>
+	</div>
+	<div class="home-card">
+		<h2>Foundations</h2>
+		<p>Learn the provider-neutral concepts behind identity, networking, compute, storage, and operations.</p>
+		<p class="home-card-links"><a href="foundations/">Explore Foundations</a></p>
+	</div>
+	<div class="home-card">
+		<h2>Google Cloud</h2>
+		<p>Follow the Google Cloud path through services, projects, patterns, and practical implementation notes.</p>
+		<p class="home-card-links"><a href="gcp/">Open Google Cloud</a></p>
+	</div>
+	<div class="home-card">
+		<h2>AWS</h2>
+		<p>Study AWS through the same system-design lens: services in context, not memorized in isolation.</p>
+		<p class="home-card-links"><a href="aws/">Open AWS</a></p>
+	</div>
+	<div class="home-card">
+		<h2>Azure</h2>
+		<p>Work through Azure with the same focus on identity, runtime boundaries, operations, and tradeoffs.</p>
+		<p class="home-card-links"><a href="azure/">Open Azure</a></p>
+	</div>
+	<div class="home-card">
+		<h2>Projects and Patterns</h2>
+		<p>Move from service definitions into deployable systems and reusable architecture shapes.</p>
+		<p class="home-card-links"><a href="gcp/projects/">Projects</a><a href="gcp/patterns/">Patterns</a></p>
+	</div>
+	<div class="home-card">
+		<h2>Career</h2>
+		<p>Turn technical work into portfolio descriptions, resume bullets, interview stories, and clearer explanations.</p>
+		<p class="home-card-links"><a href="career/">Open Career</a></p>
+	</div>
+</div>
 
-This site is created by McQueen Cloud Advisory and is structured as a learning path, not just a documentation shelf. It is designed to help you connect cloud concepts to deployable systems, provider-specific implementation, and career-ready communication.
+Cloud Engineer is a practical learning and documentation site for people who want to understand how cloud systems are designed, deployed, secured, observed, automated, and improved over time.
+
+The site is built around a simple idea: cloud engineering is not the same thing as memorizing cloud services. A useful cloud engineer needs to understand the concepts behind the services, the tradeoffs between implementation options, and the operational responsibilities that appear after a system is deployed.
 
 In simple terms:
 
-> This site is meant to help you move from recognizing cloud services to building and explaining real cloud systems.
+> Cloud Engineer helps learners move from recognizing cloud services to building, documenting, and explaining real cloud systems.
 
-## What This Site Covers
+## What You Will Find Here
 
-Cloud engineering is broader than provisioning infrastructure. It includes architecture, identity, networking, storage, compute, observability, automation, deployment, reliability, and cost control. A useful site about cloud engineering therefore needs to teach more than product names.
+This site focuses on cloud engineering through a set of connected surfaces.
 
-This site focuses on five connected areas:
-
-- [Foundations](foundations/index.md): provider-neutral concepts such as networking, identity, compute, storage, observability, infrastructure as code, and cost management.
-- [Google Cloud](gcp/index.md), [AWS](aws/index.md), and [Azure](azure/index.md): provider-specific paths that show how the shared concepts are implemented on real platforms.
-- Projects: hands-on builds that turn abstract service knowledge into deployable systems.
-- Patterns: reusable architecture explanations that show why a design takes a certain shape.
-- [Career](career/index.md): guidance for turning technical work into portfolio artifacts, resume bullets, certification context, and interview-ready explanations.
-
-The site is intended to support learning that is practical, cumulative, and explainable.
+- [Foundations](foundations/index.md) explains provider-neutral concepts such as identity, networking, compute, storage, databases, serverless, containers, CI/CD, observability, cost management, and AI or agentic workloads.
+- [Google Cloud](gcp/index.md), [AWS](aws/index.md), and [Azure](azure/index.md) translate those concepts into provider-specific services, projects, patterns, roadmaps, and getting-started paths.
+- Service pages focus on practical fit: what problem a service solves, when to use it, when not to, what it should be compared against, and what operating responsibilities come with it.
+- Project pages turn concepts into deployable, explainable systems that are meant to be portfolio-ready.
+- Pattern pages explain reusable architecture shapes so the site teaches design judgment rather than isolated steps.
+- [Career](career/index.md) helps turn technical work into portfolio descriptions, resume bullets, interview stories, and clearer communication.
 
 ## What This Site Is Not
 
-This site is not meant to be a complete catalog of every cloud service.
+This site is not a complete catalog of every cloud service. The major providers already maintain official documentation for that purpose.
 
-It is also not designed as a certification cram sheet, a list of isolated tutorials, or a collection of screenshots with little explanation. Those resources can be useful in the right context, but they do not usually build strong engineering judgment on their own.
-
-The goal here is different. The goal is to help you understand questions like these:
-
-- Why should one service be chosen over another?
-- How should identities, secrets, and permissions be structured?
-- How does traffic or data move through the system?
-- How is the system deployed safely?
-- How are failures observed and investigated?
-- What cost and operational tradeoffs come with the design?
-
-That is the difference between learning services and learning cloud engineering.
-
-## How the Site Is Organized
-
-The site is deliberately arranged so each section builds on the previous one.
-
-### Foundations First
-
-The Foundations section explains the core concepts that transfer across providers. This includes topics such as networking, identity and access, compute models, storage, databases, observability, CI/CD, infrastructure as code, and AI workloads from a cloud engineering perspective.
-
-If you are early in your learning path, this is the best place to start. These pages make the provider sections easier to understand because they explain the problems before the services.
-
-### Provider Paths Next
-
-The AWS, Azure, and Google Cloud sections translate the foundational concepts into specific provider operating models. Each provider path includes:
-
-- overview pages that explain how to approach the platform,
-- getting started guides and roadmaps,
-- service pages that explain the practical role of key services,
-- projects that build real systems,
-- and pattern pages that describe reusable architecture shapes.
-
-The point is not to study three clouds at once. The point is to learn one provider deeply enough that the underlying engineering patterns become portable.
-
-### Projects and Patterns Together
-
-Projects show implementation. Patterns show design intent.
-
-Projects help you build something concrete. Pattern pages help you step back and explain why the architecture works, what tradeoffs it makes, and how the same idea can appear across providers.
-
-### Career Material Last, But Not Too Late
-
-The Career section exists because technical skill only becomes visible when you can explain it clearly. Once you build projects, you should also be able to turn them into documentation, resume material, and interview stories.
+It is not a certification cram sheet, and it is not a collection of disconnected tutorials. The goal here is to build judgment: knowing why one service, architecture, or deployment path makes sense over another.
 
 ## How To Use This Site
 
-There is no single perfect sequence for every reader, but a practical path usually looks like this:
+A practical path through the site looks like this:
 
-1. Start with the [Foundations](foundations/index.md) section and focus first on networking, identity, compute, storage, observability, and cost.
+1. Start with [Foundations](foundations/index.md) to understand the concepts that transfer across providers.
 2. Choose one provider path: [Google Cloud](gcp/index.md), [AWS](aws/index.md), or [Azure](azure/index.md).
-3. Use the provider roadmap and getting started pages to understand that platform's operating model.
-4. Read service pages as they appear in projects instead of trying to study the entire service catalog up front.
-5. Use the pattern pages to explain why the architecture is shaped the way it is.
-6. Use the [Career](career/index.md) section to turn project work into portfolio, resume, certification, and interview material.
+3. Use roadmap and getting-started pages to understand that platform's operating model.
+4. Read service pages when they appear in projects rather than trying to memorize an entire service catalog.
+5. Use pattern pages to understand why an architecture is shaped the way it is.
+6. Build from the project pages and document the tradeoffs, access model, deployment path, and operational decisions.
+7. Use the [Career](career/index.md) section to turn the work into portfolio and interview material.
 
-This sequence is designed to reinforce practical learning. You should be building, documenting, and explaining as you go, not only reading.
+The best way to use this site is to build while reading. Cloud engineering knowledge becomes more durable when it is connected to a deployed system, a troubleshooting decision, or an architecture explanation.
 
 ## Who This Site Is For
 
-This site is especially useful for people who fall into one or more of these groups:
+This site is especially useful for:
 
-- learners who want a practical path into cloud engineering,
-- software or data professionals moving closer to platform and operations work,
-- engineers who know one provider and want a stronger cross-provider conceptual base,
-- job seekers building projects, portfolio material, and interview stories,
-- practitioners who want clearer explanations of service choices and operational tradeoffs.
+- learners building a practical path into cloud engineering,
+- data and analytics professionals moving toward cloud platforms,
+- software professionals who want stronger infrastructure and operations context,
+- engineers who know one provider and want a clearer cross-provider foundation,
+- job seekers building portfolio projects and interview stories,
+- practitioners who want clearer explanations of cloud service choices and tradeoffs.
 
-You do not need to be an expert to use the site well. But the site assumes you want more than shallow exposure.
+You do not need to be an expert to start. But the site assumes you want more than shallow exposure. The goal is to understand enough to build, operate, troubleshoot, and explain.
 
 ## What Good Progress Looks Like
 
-Good progress is not measured only by how many services you can name. It is measured by whether you can do work like this:
+Good progress is not measured by how many cloud services you can name. It is measured by whether you can reason clearly about systems.
 
-- explain how a system is structured,
-- justify why certain services were chosen,
-- describe how access is controlled,
-- explain how deployments happen,
-- identify how failures are observed,
-- discuss the main cost and reliability risks,
-- and turn the whole design into a credible project explanation.
+You are making progress when you can:
 
-If the site helps you do those things more clearly, it is doing its job.
+- explain what a system does,
+- describe how traffic or data moves through it,
+- identify which identities can deploy it and which identities can run it,
+- justify why specific services were chosen,
+- compare those services to reasonable alternatives,
+- explain how failures would be detected,
+- describe the main cost drivers,
+- document the deployment path,
+- and turn the work into a credible project explanation.
 
-## How This Fits Into Cloud Engineering
+That is the difference between learning cloud products and developing cloud engineering judgment.
 
-Cloud engineering is the work of turning cloud platforms into usable, secure, observable, repeatable systems. This site is organized to support that exact goal. It starts with the transferable concepts, moves into provider-specific implementation, reinforces the material through projects and patterns, and finishes by helping you communicate the work well.
+## Current Direction
 
-The long-term aim is not only to help you learn cloud services. It is to help you develop cloud engineering judgment.
+The site is documentation-first and implementation-aware. It began around a real deployed MkDocs documentation site and continues to expand across Google Cloud, AWS, and Azure without pretending the providers are identical.
+
+The goal is consistency in depth, practical design judgment, and portfolio-ready explanations rather than broad but shallow catalog coverage.
+
+## Reference Policy
+
+This site uses official documentation as the primary reference base. Service, project, and pattern pages should rely on vendor documentation and official tooling documentation rather than third-party tutorials.
+
+That choice is deliberate. Official documentation reduces the risk of copying outdated implementation patterns and helps keep explanations grounded in supported platform behavior.
 
 ## Official References
 
 - [Google Cloud documentation](https://cloud.google.com/docs)
 - [AWS documentation](https://docs.aws.amazon.com/)
 - [Microsoft Learn for Azure](https://learn.microsoft.com/en-us/azure/)
+- [Firebase Hosting documentation](https://firebase.google.com/docs/hosting)
+- [MkDocs documentation](https://www.mkdocs.org/)

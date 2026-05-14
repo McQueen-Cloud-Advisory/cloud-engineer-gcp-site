@@ -1,5 +1,39 @@
 # AWS Projects
 
+<div class="section-intro">
+	<p class="section-kicker">Hands-on sequence</p>
+	<p class="section-lede">Build through the AWS project path in order so account boundaries, identity, runtime behavior, and operational discipline stay connected.</p>
+	<p class="section-summary">These projects are designed to turn service knowledge into deployable systems that you can explain clearly in portfolio and interview settings.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Project 01: Static Site</h2>
+		<p>Start with object storage delivery, controlled deployment, and simple public hosting.</p>
+		<p class="section-card-links"><a href="project-01-static-site/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 02: Serverless Contact Form</h2>
+		<p>Add API handling, serverless compute, application data, and secrets.</p>
+		<p class="section-card-links"><a href="project-02-serverless-contact-form/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 03: Scheduled API Ingestion</h2>
+		<p>Introduce recurring automation, external integration, and event-driven processing.</p>
+		<p class="section-card-links"><a href="project-03-scheduled-api-ingestion/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 04: Analytics Platform</h2>
+		<p>Expand into ingestion, storage organization, and analytical workflow design.</p>
+		<p class="section-card-links"><a href="project-04-analytics-platform/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 05: Agentic RAG Assistant</h2>
+		<p>Extend the platform into retrieval, safety controls, and AI-oriented operations.</p>
+		<p class="section-card-links"><a href="project-05-agentic-rag-assistant/">Open Project</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This section contains hands-on AWS projects designed to turn service knowledge into deployable systems that you can explain clearly.

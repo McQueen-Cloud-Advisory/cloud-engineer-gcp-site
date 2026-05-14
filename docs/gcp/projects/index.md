@@ -1,5 +1,39 @@
 # Google Cloud Projects
 
+<div class="section-intro">
+	<p class="section-kicker">Hands-on sequence</p>
+	<p class="section-lede">Build through the Google Cloud project path in order so runtime, identity, eventing, data, and AI concerns compound naturally.</p>
+	<p class="section-summary">These projects are meant to produce systems you can deploy, explain, and later turn into portfolio evidence rather than one-off demos.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Project 01: Static Site</h2>
+		<p>Start with storage-backed delivery, deployment discipline, and baseline monitoring.</p>
+		<p class="section-card-links"><a href="project-01-static-site/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 02: Serverless Contact Form</h2>
+		<p>Add managed runtime choices, secrets handling, and application data flow.</p>
+		<p class="section-card-links"><a href="project-02-serverless-contact-form/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 03: Scheduled API Ingestion</h2>
+		<p>Introduce recurring automation, external integration, and event-driven processing.</p>
+		<p class="section-card-links"><a href="project-03-scheduled-api-ingestion/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 04: Analytics Platform</h2>
+		<p>Connect ingestion, storage, curation, and query-oriented design in one system.</p>
+		<p class="section-card-links"><a href="project-04-analytics-platform/">Open Project</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Project 05: Agentic RAG Assistant</h2>
+		<p>Extend the path into retrieval, safety controls, and AI platform integration.</p>
+		<p class="section-card-links"><a href="project-05-agentic-rag-assistant/">Open Project</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This section contains hands-on Google Cloud projects designed to turn the provider path into real systems you can build and explain.

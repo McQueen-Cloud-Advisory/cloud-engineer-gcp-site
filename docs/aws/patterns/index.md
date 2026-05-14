@@ -1,5 +1,39 @@
 # AWS Patterns
 
+<div class="section-intro">
+	<p class="section-kicker">Reusable architecture</p>
+	<p class="section-lede">Use the AWS patterns pages to understand recurring workload shapes before you focus on one implementation.</p>
+	<p class="section-summary">These pages help keep the architecture visible underneath AWS service selection so you can compare options and explain why the design works.</p>
+</div>
+
+<div class="section-grid">
+	<div class="section-card">
+		<h2>Static Site</h2>
+		<p>See a low-operations public delivery pattern built around storage and simple hosting.</p>
+		<p class="section-card-links"><a href="static-site/">Open Pattern</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Serverless API</h2>
+		<p>Connect request handling, runtime identity, and managed application delivery.</p>
+		<p class="section-card-links"><a href="serverless-api/">Open Pattern</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Scheduled Job</h2>
+		<p>Understand recurring automation and event-driven execution as one pattern shape.</p>
+		<p class="section-card-links"><a href="scheduled-job/">Open Pattern</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Analytics Platform</h2>
+		<p>Frame ingestion, storage, and analytics as one reusable system design.</p>
+		<p class="section-card-links"><a href="analytics-platform/">Open Pattern</a></p>
+	</div>
+	<div class="section-card">
+		<h2>Agentic RAG Assistant</h2>
+		<p>Keep identity, safety, observability, and runtime design visible in AI workloads.</p>
+		<p class="section-card-links"><a href="agentic-rag-assistant/">Open Pattern</a></p>
+	</div>
+</div>
+
 ## Purpose
 
 This section explains reusable AWS architecture patterns and focuses on why a design is shaped the way it is, not only which services appear in it.
